@@ -10,7 +10,7 @@ export const router=express.Router();
 
 /*As we used the post request in front end*/
 
-router.post('/rest/v1/calendar/init/',GoogleCalendarInitView);
+router.get('/rest/v1/calendar/init/',GoogleCalendarInitView);
 router.get('/rest/v1/calendar/redirect/',GoogleCalendarRedirectView);
 
 

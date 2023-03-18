@@ -17,7 +17,7 @@ router.get('/rest/v1/calendar/redirect/',GoogleCalendarRedirectView);
 const oAuth2Client = new OAuth2(
     "789493418164-5henlj2520ni11rvj5ek0i8tpsg0pu6g.apps.googleusercontent.com",
     "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",
-    "https://youth-india-backend-imuk23.vercel.app"
+    "https://youth-india-backend-imuk23.vercel.app/rest/v1/calendar/redirect/"
   );
   
   const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
